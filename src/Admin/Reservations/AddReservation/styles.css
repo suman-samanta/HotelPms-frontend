@@ -1,0 +1,89 @@
+/* The Modal (background) */
+.modalroom {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    /* z-index: 66; */
+    margin-top: 50px;
+    /* Sit on top */
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 25px auto !important;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* height: 92vh; */
+    overflow-y: scroll;
+}
+
+/* The Close Button */
+.closemdbtn {
+    color: #aaaaaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 95%;
+}
+
+.closemdbtn:hover,
+.closemdbtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.width-600p {
+    width: 600px;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+.width-10 {
+    width: 10%;
+}
+
+.width-35 {
+    width: 35%;
+}
+
+.margin-15 {
+    margin: 1px 25px 15px 15px;
+}
+
+.margin-15sp {
+    margin: 15px 25px 15px 15px;
+}
+
+
+.margin-35half {
+    margin: 0 35%;
+}
+
+.room_details_btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.summarycard {
+    padding: 10px;
+    text-align: center;
+}
