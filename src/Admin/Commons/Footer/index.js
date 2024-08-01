@@ -3,11 +3,11 @@ export default function Footer() {
         <>
             <footer id="footer" className="footer">
                 <div className="copyright">
-                    &copy; Copyright <strong><span>Infowebment Solutions</span></strong>. All Rights Reserved
+                    &copy; Copyright <strong><span>Suman Samanta</span></strong>. All Rights Reserved
                 </div>
                 <div className="credits">
 
-                    Designed by <a href="https:///">S</a>
+                    Designed by <a href="https:///">Suman Samanta</a>
                 </div>
             </footer>
 

@@ -17,10 +17,10 @@ export default function MasterAdminRouter() {
         <>
             <Routes>
             <Route path="/login"  element={<Login />} />
-                {/* <Route path="/login" element={superuser ? <Dashboard /> : <Login />} /> */}
-                {/* <Route path="/superadmin/login" element={user ? <CreateAHotelAdmin /> : <Login />} /> */}
-                {/* <Route path="/superadmin/addSubscription" element={(user && user.role === 'superadmin') ? <CreateASubscription /> : <Login />} /> */}
-                {/* <Route path="/superadmin/hotellist" element={(user && user.role === 'superadmin') ? <HotelLists /> : <Login />} /> */}
+                {/* <Route path="/login" element={superuser ? <Dashboard /> : <Login />} />
+                <Route path="/superadmin/login" element={user ? <CreateAHotelAdmin /> : <Login />} />
+                <Route path="/superadmin/addSubscription" element={(user && user.role === 'superadmin') ? <CreateASubscription /> : <Login />} />
+                <Route path="/superadmin/hotellist" element={(user && user.role === 'superadmin') ? <HotelLists /> : <Login />} /> */}
                 <Route path="/"  element={<Login />} />
             </Routes>
 

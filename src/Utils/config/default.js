@@ -1,3 +1,3 @@
-const baseUrl="http://103.235.106.156:5000/server"
+const baseUrl="http://localhost:5000/server"
 
 module.exports=baseUrl;
